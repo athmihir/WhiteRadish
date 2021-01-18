@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_user_order_item" />
+
+    <TextView
+        android:id="@+id/odval"
+        android:layout_width="73dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="299dp"
+        android:layout_marginTop="41dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/darkGrey"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/ototal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/darkGrey"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="77dp"
+        android:textSize="10dp"
+        android:text="Order Total:" />
+
+    <TextView
+        android:id="@+id/opick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="82dp"
+        android:text="Pick-up:"
+        android:textSize="10dp"
+        android:textColor="@color/darkGrey" />
+
+    <TextView
+        android:id="@+id/opicval"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="302dp"
+        android:layout_marginTop="82dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/darkGrey"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/odelval"
+        android:layout_width="69dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="303dp"
+        android:layout_marginTop="126dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/darkGrey"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/odel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="219dp"
+        android:layout_marginTop="124dp"
+        android:textSize="10dp"
+        android:text="Deliver before:"
+        android:textColor="@color/darkGrey" />
+
+    <TextView
+        android:id="@+id/compensation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="161dp"
+        android:text="Compensation :"
+        android:textSize="10dp"
+        android:textColor="@color/darkGrey" />
+
+    <TextView
+        android:id="@+id/compval"
+        android:layout_width="67dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="162dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/darkGrey"
+        android:textSize="11dp" />
+
+    <TextView
+        android:id="@+id/ds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="118dp"
+        android:text="Delivery Status:"
+        android:textColor="@color/darkGrey"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/od"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="222dp"
+        android:layout_marginTop="40dp"
+        android:textSize="10dp"
+        android:text="Order date:"
+        android:textColor="@color/darkGrey" />
+
+    <TextView
+        android:id="@+id/oid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="49dp"
+        android:textColor="@color/darkGrey"
+        android:layout_marginTop="39dp"
+        android:textSize="10dp"
+        android:text="Order #:" />
+
+    <TextView
+        android:id="@+id/oidval"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="38dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/darkGrey"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/ototalval"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="79dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/darkGrey"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/dsval"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="118dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/darkGrey"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/smbtn"
+        android:layout_width="140dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="195dp"
+        android:layout_marginEnd="117dp"
+        android:text="Show More Details >"
+        android:textAlignment="center"
+        android:textColor="@color/darkGrey"
+        android:textSize="11dp" />
+
+</RelativeLayout>

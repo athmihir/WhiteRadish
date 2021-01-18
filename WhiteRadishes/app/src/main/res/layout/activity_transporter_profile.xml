@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/offwhite"
+    tools:context=".TransporterProfile">
+
+
+    <ImageView
+        android:id="@+id/transdesc1"
+        android:layout_width="359dp"
+        android:layout_height="422dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.336"
+        app:srcCompat="@drawable/trandesc1" />
+
+    <ImageView
+        android:id="@+id/transdesc2"
+        android:layout_width="377dp"
+        android:layout_height="252dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/transdesc1"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ar5" />
+
+
+    <ImageView
+        android:id="@+id/imgprofile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/transdesc1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/tranimg" />
+
+    <TextView
+        android:id="@+id/profilename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/transdesc1"
+        app:layout_constraintEnd_toEndOf="@+id/transdesc1"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/transdesc1"
+        app:layout_constraintTop_toBottomOf="@+id/imgprofile"
+        app:layout_constraintVertical_bias="0.033" />
+
+    <TextView
+        android:id="@+id/profilelocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location :"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/transdesc1"
+        app:layout_constraintEnd_toEndOf="@+id/transdesc1"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="@+id/transdesc1"
+        app:layout_constraintTop_toBottomOf="@+id/profilename"
+        app:layout_constraintVertical_bias="0.044" />
+
+    <TextView
+        android:id="@+id/profilecontact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact :"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/transdesc1"
+        app:layout_constraintEnd_toEndOf="@+id/transdesc1"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="@+id/transdesc1"
+        app:layout_constraintTop_toBottomOf="@+id/profilelocation"
+        app:layout_constraintVertical_bias="0.086" />
+
+    <TextView
+        android:id="@+id/profilerating"
+        android:layout_width="72dp"
+        android:layout_height="24dp"
+        android:text="Rating :"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/transdesc1"
+        app:layout_constraintEnd_toEndOf="@+id/transdesc1"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintStart_toStartOf="@+id/transdesc1"
+        app:layout_constraintTop_toBottomOf="@+id/profilecontact"
+        app:layout_constraintVertical_bias="0.123" />
+
+    <TextView
+        android:id="@+id/profileorders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Orders :"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/transdesc1"
+        app:layout_constraintEnd_toEndOf="@+id/transdesc1"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintStart_toStartOf="@+id/transdesc1"
+        app:layout_constraintTop_toBottomOf="@+id/profilerating"
+        app:layout_constraintVertical_bias="0.211" />
+
+
+    <ImageButton
+        android:id="@+id/transorders"
+        android:layout_width="164dp"
+        android:layout_height="199dp"
+        android:layout_marginStart="3dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="@+id/transdesc2"
+        app:layout_constraintEnd_toEndOf="@+id/transdesc2"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="@+id/transdesc2"
+        app:layout_constraintTop_toTopOf="@+id/transdesc2"
+        app:layout_constraintVertical_bias="0.528"
+        app:srcCompat="@drawable/tranorders" />
+
+    <ImageButton
+        android:id="@+id/transhistory"
+        android:layout_width="162dp"
+        android:layout_height="218dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="@+id/transdesc2"
+        app:layout_constraintEnd_toEndOf="@+id/transdesc2"
+        app:layout_constraintHorizontal_bias="0.233"
+        app:layout_constraintStart_toEndOf="@+id/transorders"
+        app:layout_constraintTop_toTopOf="@+id/transdesc2"
+        app:layout_constraintVertical_bias="0.529"
+        app:srcCompat="@drawable/tranhistory" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="116dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="12dp"
+        android:text=""
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/profilelocation"
+        app:layout_constraintTop_toBottomOf="@+id/profilename" />
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="112dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/profilecontact"
+        app:layout_constraintTop_toBottomOf="@+id/location" />
+
+    <TextView
+        android:id="@+id/rating"
+        android:layout_width="69dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/profilerating"
+        app:layout_constraintTop_toBottomOf="@+id/contact" />
+
+    <TextView
+        android:id="@+id/orders"
+        android:layout_width="69dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="28dp"
+        android:text=""
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/profileorders"
+        app:layout_constraintTop_toBottomOf="@+id/rating" />
+
+    <ImageButton
+        android:id="@+id/logoutbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@color/offwhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_exit" />
+
+    <ImageButton
+        android:id="@+id/editbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="25dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/transdesc1"
+        app:layout_constraintTop_toTopOf="@+id/transdesc1"
+        app:srcCompat="@drawable/ic_edit" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

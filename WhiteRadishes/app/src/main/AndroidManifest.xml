@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shg.radisheswhite">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WhiteRadish">
+        <activity android:name="com.shg.radisheswhite.EditCustomerProfile"></activity>
+        <activity android:name="com.shg.radisheswhite.EditTransporterProfile" />
+        <activity android:name="com.shg.radisheswhite.EditFarmerProfile" />
+        <activity android:name="com.shg.radisheswhite.AddToCart" />
+        <activity android:name="com.shg.radisheswhite.CheckoutWaiting" />
+        <activity
+            android:name="com.shg.radisheswhite.UserOrders"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shg.radisheswhite.TransporterOrders"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shg.radisheswhite.TransporterHistory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shg.radisheswhite.NewOrders"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shg.radisheswhite.FarmerOrder"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shg.radisheswhite.NewOrderDetails_Transporter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shg.radisheswhite.HistoryOrderDetails_Transporter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shg.radisheswhite.HistoryOrderDetails_Customer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shg.radisheswhite.HistoryOrderDetails_Farmer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shg.radisheswhite.CurrentOrderDetails_Transporter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shg.radisheswhite.CurrentOrderDetails_Customer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shg.radisheswhite.UserProfile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shg.radisheswhite.TransporterProfile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shg.radisheswhite.FarmerProfile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shg.radisheswhite.CurrentOrderDetails_Farmer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shg.radisheswhite.ShoppingCart"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shg.radisheswhite.Inventory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shg.radisheswhite.AddProduct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shg.radisheswhite.HomeActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.shg.radisheswhite.EditProduct2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shg.radisheswhite.EditProduct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shg.radisheswhite.StartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shg.radisheswhite.ResetPassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shg.radisheswhite.Register"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shg.radisheswhite.Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shg.radisheswhite.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

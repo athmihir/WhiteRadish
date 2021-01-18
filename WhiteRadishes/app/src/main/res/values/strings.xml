@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">White Radish</string>
+
+    <string name="Catagory">Type of Account</string>
+    <string-array name="catagory_array" color="@colors/white">
+        <item>Farmer</item>
+        <item>Customer</item>
+        <item>Transporter</item>
+    </string-array>
+
+</resources>

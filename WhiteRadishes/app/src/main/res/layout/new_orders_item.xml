@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_user_order_item" />
+
+    <TextView
+        android:id="@+id/pbval"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="298dp"
+        android:layout_marginTop="41dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/darkGrey"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/pu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/darkGrey"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="77dp"
+        android:textSize="11dp"
+        android:text="Pick-up:" />
+
+    <TextView
+        android:id="@+id/db"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="82dp"
+        android:text="Deliver by:"
+        android:textSize="11dp"
+        android:textColor="@color/darkGrey" />
+
+    <TextView
+        android:id="@+id/dbval"
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="302dp"
+        android:layout_marginTop="84dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/darkGrey"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/compval"
+        android:layout_width="69dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="315dp"
+        android:layout_marginTop="126dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/darkGrey"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/comp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="219dp"
+        android:layout_marginTop="124dp"
+        android:text="Compensation:"
+        android:textSize="11dp"
+        android:textColor="@color/darkGrey" />
+
+    <TextView
+        android:id="@+id/dr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/darkGrey"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="118dp"
+        android:textSize="11dp"
+        android:text="Deliver:" />
+
+    <TextView
+        android:id="@+id/pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="222dp"
+        android:layout_marginTop="40dp"
+        android:text="Pickup_by:"
+        android:textSize="11dp"
+        android:textColor="@color/darkGrey" />
+
+    <TextView
+        android:id="@+id/dt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="49dp"
+        android:textColor="@color/darkGrey"
+        android:layout_marginTop="39dp"
+        android:textSize="11dp"
+        android:text="Order #:" />
+
+    <TextView
+        android:id="@+id/oidval"
+        android:layout_width="61dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="41dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/darkGrey"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/puval"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="80dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/darkGrey"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/drval"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="120dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/darkGrey"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/smbtn"
+        android:layout_width="140dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="120dp"
+        android:text="Show More Details >"
+        android:textAlignment="center"
+        android:textColor="@color/darkGrey"
+        android:textSize="11dp" />
+
+</RelativeLayout>
